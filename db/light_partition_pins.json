@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "radata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "radata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "radata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "radata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "radata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "radata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "radata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "radata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "rbdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rbdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rbdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rbdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rbdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rbdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rbdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rbdata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "raaddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "raen",
+					"strict" : false
+				},
+				{
+					"name" : "raaddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rben",
+					"strict" : false
+				},
+				{
+					"name" : "rbaddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rbaddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wen",
+					"strict" : false
+				},
+				{
+					"name" : "waddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "waddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

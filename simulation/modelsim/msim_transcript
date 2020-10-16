@@ -1,0 +1,69 @@
+# Reading pref.tcl
+# do light_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/brian/Documents/introtutorial {C:/Users/brian/Documents/introtutorial/t_processorV1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:09:52 on Oct 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/brian/Documents/introtutorial" C:/Users/brian/Documents/introtutorial/t_processorV1.v 
+# -- Compiling module t_processorV1
+# 
+# Top level modules:
+# 	t_processorV1
+# End time: 19:09:53 on Oct 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/brian/Documents/introtutorial {C:/Users/brian/Documents/introtutorial/processorV1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:09:53 on Oct 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/brian/Documents/introtutorial" C:/Users/brian/Documents/introtutorial/processorV1.v 
+# -- Compiling module processorV1
+# 
+# Top level modules:
+# 	processorV1
+# End time: 19:09:53 on Oct 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/brian/Documents/introtutorial {C:/Users/brian/Documents/introtutorial/register4x8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:09:53 on Oct 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/brian/Documents/introtutorial" C:/Users/brian/Documents/introtutorial/register4x8.v 
+# -- Compiling module register4x8
+# 
+# Top level modules:
+# 	register4x8
+# End time: 19:09:53 on Oct 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/brian/Documents/introtutorial {C:/Users/brian/Documents/introtutorial/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:09:53 on Oct 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/brian/Documents/introtutorial" C:/Users/brian/Documents/introtutorial/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 19:09:53 on Oct 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.t_processorV1
+# vsim work.t_processorV1 
+# Start time: 19:10:03 on Oct 09,2020
+# Loading work.t_processorV1
+# Loading work.processorV1
+# Loading work.register4x8
+# Loading work.alu
+add wave -position insertpoint sim:/t_processorV1/proc/reg1/*
+add wave -position insertpoint sim:/t_processorV1/proc/*
+add wave -position insertpoint sim:/t_processorV1/*
+run
+run
+run
+run
+# End time: 19:15:59 on Oct 09,2020, Elapsed time: 0:05:56
+# Errors: 0, Warnings: 0

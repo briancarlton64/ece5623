@@ -1,0 +1,109 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/brian/Documents/introtutorial/simulation/modelsim
+valu
+Z1 !s110 1602288593
+!i10b 1
+!s100 @GTOck;lZg7`0]42hziQE2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IlBga0fgcXGheD^U7>WzQG1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1601929402
+8C:/Users/brian/Documents/introtutorial/alu.v
+FC:/Users/brian/Documents/introtutorial/alu.v
+!i122 3
+L0 1 29
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1602288593.000000
+!s107 C:/Users/brian/Documents/introtutorial/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/brian/Documents/introtutorial|C:/Users/brian/Documents/introtutorial/alu.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/brian/Documents/introtutorial
+Z8 tCvgOpt 0
+vprocessorV1
+R1
+!i10b 1
+!s100 RaB0o9O8m0a<;FA3hkIN>0
+R2
+IT8g0Gf4_L];7Q6FBo;KIZ2
+R3
+R0
+w1602282412
+8C:/Users/brian/Documents/introtutorial/processorV1.v
+FC:/Users/brian/Documents/introtutorial/processorV1.v
+!i122 1
+L0 1 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/brian/Documents/introtutorial/processorV1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/brian/Documents/introtutorial|C:/Users/brian/Documents/introtutorial/processorV1.v|
+!i113 1
+R6
+R7
+R8
+nprocessor@v1
+vregister4x8
+R1
+!i10b 1
+!s100 JQTlUQ_EI6mQN5QmZ>U0D3
+R2
+IG[omMb_2dJS<4h@V1kZcE2
+R3
+R0
+w1602288545
+8C:/Users/brian/Documents/introtutorial/register4x8.v
+FC:/Users/brian/Documents/introtutorial/register4x8.v
+!i122 2
+L0 1 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/brian/Documents/introtutorial/register4x8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/brian/Documents/introtutorial|C:/Users/brian/Documents/introtutorial/register4x8.v|
+!i113 1
+R6
+R7
+R8
+vt_processorV1
+R1
+!i10b 1
+!s100 39z7m`@WEK>[SeGWRW;0<2
+R2
+IN53K?7HN2iBPJh][0gP8O3
+R3
+R0
+w1602287024
+8C:/Users/brian/Documents/introtutorial/t_processorV1.v
+FC:/Users/brian/Documents/introtutorial/t_processorV1.v
+!i122 0
+L0 2 70
+R4
+r1
+!s85 0
+31
+!s108 1602288592.000000
+!s107 C:/Users/brian/Documents/introtutorial/t_processorV1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/brian/Documents/introtutorial|C:/Users/brian/Documents/introtutorial/t_processorV1.v|
+!i113 1
+R6
+R7
+R8
+nt_processor@v1

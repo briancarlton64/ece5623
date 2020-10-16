@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/brian/Documents/introtutorial/simulation/modelsim
+vhard_block
+Z1 !s110 1601509515
+!i10b 1
+!s100 0CV;JKPL7RoFJ@9UC[4;70
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=b9Z3^aG`=VWc[FJMKG220
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1601509510
+Z5 8light.vo
+Z6 Flight.vo
+!i122 0
+L0 2691 45
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1601509515.000000
+Z9 !s107 light.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|light.vo|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+.
+Z13 tCvgOpt 0
+vregister4x8
+R1
+!i10b 1
+!s100 Hi?7X>jQ5Q_OD=]<4[P`51
+R2
+IFCdW2eE8_PmObz=C2XH0`3
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 2658
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vtestbench
+!s110 1601509531
+!i10b 1
+!s100 3[OI2fcR]R>Q:4Mf^JZ463
+R2
+IO?AAVd>U>4lYAb?W;g2U^3
+R3
+R0
+w1601509480
+8C:/Users/brian/Documents/introtutorial/t_register4x8.v
+FC:/Users/brian/Documents/introtutorial/t_register4x8.v
+!i122 1
+L0 3 72
+R7
+r1
+!s85 0
+31
+!s108 1601509531.000000
+!s107 C:/Users/brian/Documents/introtutorial/t_register4x8.v|
+!s90 -reportprogress|300|-work|work|C:/Users/brian/Documents/introtutorial/t_register4x8.v|
+!i113 1
+o-work work
+R13

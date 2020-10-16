@@ -1,0 +1,78 @@
+module register4x8 (wdata, waddr, wen, raaddr, raen, rbaddr, rben, radata, rbdata, clk);
+	input [7:0] wdata;
+	input [1:0] waddr;
+	input wen;
+	input [2:0] raaddr;
+	input raen;
+	input [2:0] rbaddr;
+	input rben;
+	input clk;
+	output reg [7:0] radata;
+	output reg [7:0] rbdata;
+	
+	
+	reg [7:0] reg0;
+	reg [7:0] reg1;
+	reg [7:0] reg2;
+	reg [7:0] reg3;
+	
+	
+	always @(posedge clk) begin
+		if(raen) begin
+			case(raaddr)
+				2'b00:
+					radata <= reg0;
+				2'b01:
+					radata <= reg1;
+				2'b10:
+					radata <= reg2;
+				2'b11:
+					radata <= reg3;
+				default:
+					radata <= 0;
+			endcase
+		end
+		else begin
+			radata = 0;
+		end
+
+		if(rben) begin
+			case(rbaddr)
+				2'b00:
+					rbdata <= reg0;
+				2'b01:
+					rbdata <= reg1;
+				2'b10:
+					rbdata <= reg2;
+				2'b11:
+					rbdata <= reg3;
+				default:
+					rbdata <= 0;
+			endcase
+		end
+		else begin
+			rbdata <= 0;
+		
+		end
+		
+	end
+	
+	always @(posedge clk) begin
+		if(wen) begin
+			case(waddr)
+				2'b00:
+					reg0 <= wdata;
+				2'b01:
+					reg1 <= wdata;
+				2'b10:
+					reg2 <= wdata;
+				2'b11:
+					reg3 <= wdata;
+			endcase
+		end
+	end
+	
+endmodule
+	
+		
+	
